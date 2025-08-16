@@ -1,0 +1,22 @@
+@import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
+body {
+  background-color: skyblue;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: aqua;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: stretch;
+}
+
+.header-image {
+  width: 100px;
+  height: 70px;
+  left: 0;
+}
