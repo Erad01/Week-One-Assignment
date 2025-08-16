@@ -8,6 +8,8 @@ body {
   justify-content: space-evenly;
   background-color: aqua;
   font-size: 2rem;
+  position: fixed;
+  
 }
 
 .nav-bar {
@@ -15,10 +17,46 @@ body {
   justify-content: space-evenly;
   align-content: stretch;
   width: 1000px;
+  flex-wrap: wrap;
+  
 }
 
 .header-image {
   width: 100px;
   height: 70px;
   left: 0;
+}
+
+.nav-links {
+    margin-top: 30px;
+}
+
+.log-in {
+    margin-top: 30px;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+}
+
+.personal-section {
+    height: 500px;
+    background-color: rgb(135, 175, 235);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.personal-h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.personal-section-img {
+    width: 150px;
+    height: 250px;
+}
+
+.personal {
+    align-self: center;
 }
