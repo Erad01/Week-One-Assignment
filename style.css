@@ -7,12 +7,14 @@ body {
   display: flex;
   justify-content: space-evenly;
   background-color: aqua;
+  font-size: 2rem;
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
   align-content: stretch;
+  width: 1000px;
 }
 
 .header-image {
