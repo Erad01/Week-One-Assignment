@@ -60,3 +60,47 @@ body {
 .personal {
     align-self: center;
 }
+
+.business {
+    align-self: center;
+}
+
+.private {
+    align-self: center;
+}
+
+.business-section {
+    height: 500px;
+    background-color: rgb(135, 153, 235);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.business-h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.business-section-img {
+    width: 150px;
+    height: 250px;
+    
+}
+
+.private-section {
+    height: 500px;
+    background-color: rgb(147, 135, 235);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.private-h1 {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.private-section-img {
+    width: 150px;
+    height: 250px;
+    
+}
