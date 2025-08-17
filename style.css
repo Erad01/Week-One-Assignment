@@ -1,8 +1,6 @@
 @import url("https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css");
 body {
   background-color: skyblue;
-  
-  
 }
 
 .header {
@@ -11,16 +9,14 @@ body {
   background-color: aqua;
   font-size: 2rem;
   position: fixed;
-  
 }
 
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
   align-content: stretch;
-  width: 1000px;
+  width: 1198px;
   flex-wrap: wrap;
-  
 }
 
 .header-image {
@@ -30,89 +26,110 @@ body {
 }
 
 .nav-links {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .log-in {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 .main-section {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
 }
 
 .personal-section {
-    height: 500px;
-    background-color: rgb(135, 175, 235);
-    display: flex;
-    justify-content: space-evenly;
+  height: 500px;
+  background-color: rgb(135, 175, 235);
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("bankerImage4.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+  border: 2px solid whitesmoke;
 }
 
 .personal-h1 {
-    font-weight: bold;
-    font-size: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .personal-section-img {
-    width: 150px;
-    height: 250px;
+  width: 150px;
+  height: 250px;
+}
+
+.personal-div {
+  color: white;
+  font-size: 1.5rem;
 }
 
 .personal {
-    align-self: center;
+  align-self: center;
 }
 
 .business {
-    align-self: center;
+  align-self: center;
 }
 
 .private {
-    align-self: center;
+  align-self: center;
 }
 
 .business-section {
-    height: 500px;
-    background-color: rgb(135, 153, 235);
-    display: flex;
-    justify-content: space-evenly;
+  height: 500px;
+  background-color: rgb(135, 153, 235);
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("bankerImage3.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+  border: 2px solid whitesmoke;
 }
 
 .business-h1 {
-    font-weight: bold;
-    font-size: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .business-section-img {
-    width: 150px;
-    height: 250px;
-    
+  width: 150px;
+  height: 250px;
+}
+
+.business-div {
+  color: white;
+  font-size: 1.5rem;
 }
 
 .private-section {
-    height: 500px;
-    background-color: rgb(147, 135, 235);
-    display: flex;
-    justify-content: space-evenly;
-    background-image: url("bankerImage2.jpeg");
-    background-repeat: no-repeat;
-    background-attachment: scroll;
-    background-position: center;
-    background-size: contain;
+  height: 500px;
+  background-color: rgb(147, 135, 235);
+  display: flex;
+  justify-content: space-evenly;
+  background-image: url("bankerImage2.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: contain;
+  border: 2px solid whitesmoke;
 }
 
 .private-h1 {
-    font-weight: bold;
-    font-size: 2rem;
+  font-weight: bold;
+  font-size: 2rem;
 }
 
 .private-section-img {
-    width: 150px;
-    height: 250px;
-    
+  width: 150px;
+  height: 250px;
 }
 
 .private-div {
-    color: white;
-    font-size: 1.5rem;
+  color: white;
+  font-size: 1.5rem;
 }
