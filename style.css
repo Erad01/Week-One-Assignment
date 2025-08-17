@@ -5,6 +5,7 @@ html {
 }
 body {
   background-color: skyblue;
+  
 }
 
 .header {
@@ -13,6 +14,7 @@ body {
   background-color: aqua;
   font-size: 2rem;
   position: fixed;
+  flex-wrap: wrap;
 }
 
 .nav-bar {
@@ -58,7 +60,7 @@ h1:hover {
   background-color: rgb(135, 175, 235);
   display: flex;
   justify-content: space-evenly;
-  background-image: url("bankerImage4.jpeg");
+  background-image: url("bankerImage6.jpeg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center;
@@ -79,6 +81,7 @@ h1:hover {
 .personal-div {
   color: white;
   font-size: 1.5rem;
+  position: relative;
 }
 
 .personal {
@@ -176,4 +179,24 @@ footer button:hover {
   color: aliceblue;
   background-color: rgb(0, 115, 255);
   border-radius: 20px;
+}
+
+.call-agent {
+    position: fixed;
+    z-index: 500;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}
+
+.call-agent-p {
+    position: fixed;
+    z-index: 501;
+    right: 30px;
+    bottom: 105px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: aliceblue;
 }
