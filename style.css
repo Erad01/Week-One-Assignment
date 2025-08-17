@@ -159,6 +159,7 @@ h1:hover {
 
 footer a:hover {
   color: aliceblue;
+  font-size: 1.5rem;
 }
 
 footer button {
